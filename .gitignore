@@ -1,0 +1,19 @@
+# Local credentials and private data
+.env
+.env.*
+*.pem
+*.key
+*.log
+docs/mcp-*.md
+
+# Generated files
+node_modules/
+coverage/
+*.zip
+*.crx
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

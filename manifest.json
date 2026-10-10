@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Chrome Geo Mask",
+  "version": "1.1.0",
+  "minimum_chrome_version": "120",
+  "description": "Follow Chrome's proxy exit IP for timezone, geolocation and locale; system settings untouched.",
+  "permissions": [
+    "debugger",
+    "declarativeNetRequest",
+    "tabs",
+    "alarms",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
